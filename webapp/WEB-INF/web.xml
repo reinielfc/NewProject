@@ -1,39 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee      http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
-    <!--
-    <servlet>
-        <servlet-name>NewUserServlet</servlet-name>
-        <servlet-class>account.NewUserServlet</servlet-class>
-    </servlet>
-    -->
-    <!--
-    <servlet>
-        <servlet-name>LogInUserServlet</servlet-name>
-        <servlet-class>account.LogInUserServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>LogOutUserServlet</servlet-name>
-        <servlet-class>account.LogOutUserServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>NewUserServlet</servlet-name>
-        <url-pattern>/newAccount</url-pattern>
-    </servlet-mapping>
-    -->
     <servlet>
         <servlet-name>UserController</servlet-name>
         <servlet-class>controllers.UserController</servlet-class>
     </servlet>
-    <!--
-    <servlet-mapping>
-        <servlet-name>LogInUserServlet</servlet-name>
-        <url-pattern>/login</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>LogOutUserServlet</servlet-name>
-        <url-pattern>/logout</url-pattern>
-    </servlet-mapping>
-    -->
     <servlet>
         <servlet-name>AccessController</servlet-name>
         <servlet-class>controllers.AccessController</servlet-class>
